@@ -1,0 +1,9 @@
+.greg-plugin-large-text-input {
+    width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    .greg-plugin-large-text-input {
+        width: 100%;
+    }
+}
