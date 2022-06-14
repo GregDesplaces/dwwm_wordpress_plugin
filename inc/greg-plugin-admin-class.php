@@ -135,9 +135,9 @@ class GregPluginAdmin {
                     update_option( 'greg_plugin_position', $current_position );
                 }
                 ?>
-                <input type="radio" name="greg_plugin_position" value="bottom" <?php checked( $current_position, 'bottom' ) ?> />
+                <input type="radio" name="greg_plugin_position" id="bottom" value="bottom" <?php checked( $current_position, 'bottom' ) ?> />
                 <label for="bottom"><?php _e('Bottom', 'greg-plugin') ?></label>
-                <input type="radio" name="greg_plugin_position" value="top" <?php checked( $current_position, 'top' ) ?> />
+                <input type="radio" name="greg_plugin_position" id="top" value="top" <?php checked( $current_position, 'top' ) ?> />
                 <label for="top"><?php _e('Top', 'greg-plugin') ?></label>
                 <?php
             },
